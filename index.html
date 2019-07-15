@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystrals Collector</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+   <section class="container text-center">
+       <div class="row">
+           <div class="col-12">
+               <h1>Crystals Collectors</h1>
+           </div>
+       </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Each crystal below has a hidden value that will be revealed when you click on it. Every time you click on a crystal, its value will be added to your total score</p>
+                <p>You win the game by matching your total score to the target number. Good luck.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <h3>TARGET NUMBER</h3> 
+                <p id="targetNum"></p>
+            </div>
+            <div class="col-6">
+                 <h3>TOTAL SCORE</h3> 
+                 <p id="totalScore"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <h5>WINS:</h5> <span id="winNum"></span>
+            </div>
+            <div class="col-4">
+                <h3 id="winOrLose"></h3>
+                <button id=playAgain>CLICK TO PLAY AGAIN</button>
+            </div>
+             <div class="col-4">
+                <h5>LOSSES:</h5> <span id="lossNum"></span> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <img class="img-fluid" src="assets/images/CC-Crystal1.jpg" alt="Crystal1">
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="assets/images/CC-Crystal2.jpg" alt="Cryatal2">
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="assets/images/CC-Crystal3.jpg" alt="Crystal3">
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="assets/images/CC-Crystal4.jpg" alt="Crystal4">
+            </div>
+        </div>
+
+   </section>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
