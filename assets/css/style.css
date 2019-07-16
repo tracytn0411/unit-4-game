@@ -1,0 +1,36 @@
+body {
+    background-image: url("../images/Background.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+h3, h5,
+#targetNum, #totalNum {
+    color: rgb(33, 158, 216);
+}
+
+.container {
+    width: 100%;
+    padding: 4rem;
+}
+
+#crystal1, #crystal3, #crystal4 {
+    width: 40%;
+    padding: 0;
+}
+
+#crystal2 {
+    width: 55%;
+    padding: 0;
+}
+
+#targetNum, #totalNum {
+    font-size: 30px;
+}
