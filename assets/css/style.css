@@ -1,36 +1,61 @@
 body {
-    background-image: url("../images/Background.jpg");
+    background-image: url("../images/EditBackground.jpg");
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 100%;
     width: 100%;
 }
 
-h1 {
-    padding: 1rem;
-}
-
-h3, h5,
+h3,
 #targetNum, #totalNum {
-    color: rgb(33, 158, 216);
+    color: steelblue;
 }
 
-.container {
-    width: 100%;
-    padding: 4rem;
+h5 {
+    color: rgb(31, 31, 31);
 }
 
-#crystal1, #crystal3, #crystal4 {
-    width: 40%;
-    padding: 0;
+.gold-text {
+    color: black;
+}
+p {
+    color: black;
 }
 
-#crystal2 {
-    width: 55%;
+#crystal1, #crystal2, #crystal3, #crystal4 {
+    width: 50%;
     padding: 0;
 }
 
 #targetNum, #totalNum {
-    font-size: 30px;
+    font-size: 2.2rem;
 }
+
+
+/*For small devices and below*/
+@media (max-width: 767.98px){
+    p {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    #targetNum, #totalNum {
+        font-size: 1.3rem;
+    }
+
+}
+
+
